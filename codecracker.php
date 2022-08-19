@@ -86,8 +86,8 @@
             };
             for (let index = 0; index < encryptStr.length; index++) {
                 let val = encryptStr[index];
-                const keys = Object.keys(cypher);
-                keys.forEach((key, i) => {
+                // const keys = Object.keys(cypher);
+                Object.keys(cypher).forEach((key, i) => {
                     // if(val == `${key}`){
                     //     decryptStr.push(`${cypher[key]}`)
                     // }
