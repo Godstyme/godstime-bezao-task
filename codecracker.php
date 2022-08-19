@@ -100,7 +100,7 @@
     }
 
     let taskTwo = new CodeCracker;
-    console.log(taskTwo.decryption('!d&hi"b>'));
+    console.log(taskTwo.decryption(`!d&hi"b>`));
     console.log(taskTwo.encryption("godstime"));
 </script>
 </body>
