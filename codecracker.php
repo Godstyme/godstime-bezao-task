@@ -40,7 +40,7 @@
                 'w':'l',
                 'x':'m',
                 'y':'n',
-                'z':'o',
+                'z':'o'
             };
             for (let index = 0; index < decryptStr.length; index++) {
                 let val = decryptStr[index];
@@ -82,7 +82,7 @@
                 'w':'l',
                 'x':'m',
                 'y':'n',
-                'z':'o',
+                'z':'o'
             };
             for (let index = 0; index < encryptStr.length; index++) {
                 let val = encryptStr[index];
@@ -100,7 +100,7 @@
     }
 
     let taskTwo = new CodeCracker;
-    console.log(taskTwo.decryption(`!d&hi"b>`));
+    // console.log(taskTwo.decryption(`!d&hi"b>`));
     console.log(taskTwo.encryption("godstime"));
 </script>
 </body>
